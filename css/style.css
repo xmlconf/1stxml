@@ -488,7 +488,16 @@ pre {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px; }
-
+  
+  .row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 255px;
+  margin-left: 255px; }
+  
 .no-gutters {
   margin-right: 0;
   margin-left: 0; }
@@ -7768,12 +7777,14 @@ h1, h2, h3, h4, h5,
   background: #fff;
   padding: 40px;
   margin-bottom: 20px;
+  align-content: center;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease; }
   .speaker-wrap .speaker-img {
+
     width: 120px;
     height: 120px;
     -webkit-border-radius: 50%;
@@ -8505,21 +8516,25 @@ textarea.form-control {
     color: #b3b3b3; }
 
 .block-23 ul {
-  padding: 0; }
+  padding: 0; 
+  }
   .block-23 ul li, .block-23 ul li > a {
     display: table;
     line-height: 1.5;
     margin-bottom: 15px; }
   .block-23 ul li span {
-    color: rgba(255, 255, 255, 0.7); }
+    color: gray; }
   .block-23 ul li .icon, .block-23 ul li .text {
     display: table-cell;
-    vertical-align: top; }
+    vertical-align: top; 
+	
+}
   .block-23 ul li .icon {
     width: 40px;
     font-size: 18px;
     padding-top: 2px;
-    color: white; }
+	padding-left: 10px;
+    color: black; }
 
 .block-6 {
   margin-bottom: 40px; }
